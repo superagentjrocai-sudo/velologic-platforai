@@ -1,0 +1,20 @@
+docs/
+Business and product notes so you do not lose the plan.
+public/
+Logo, icons, screenshots, downloadable assets.
+src/app/
+Pages and API routes.
+src/components/
+Reusable UI pieces.
+src/lib/
+Core logic like auth, DB connection, analytics math, and calculators.
+src/services/
+Business logic for trades, journals, analytics, and tools.
+src/hooks/
+Frontend data hooks.
+src/types/
+Type definitions for trades, users, and analytics.
+supabase/
+Database schema and setup files.
+tests/
+Basic tests for the most important logic.
