@@ -1,0 +1,112 @@
+velologic-platform/
+├── README.md
+├── .gitignore
+├── package.json
+├── .env.example
+├── docs/
+│   ├── product-roadmap.md
+│   ├── brand-guidelines.md
+│   ├── legal-notes.md
+│   └── api-notes.md
+├── public/
+│   ├── logo/
+│   ├── icons/
+│   └── images/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── pricing/
+│   │   │   └── page.tsx
+│   │   ├── about/
+│   │   │   └── page.tsx
+│   │   ├── free-tools/
+│   │   │   └── page.tsx
+│   │   ├── legal/
+│   │   │   └── page.tsx
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   ├── journal/
+│   │   │   └── page.tsx
+│   │   ├── analytics/
+│   │   │   └── page.tsx
+│   │   ├── tools/
+│   │   │   └── page.tsx
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   └── api/
+│   │       ├── trades/
+│   │       │   └── route.ts
+│   │       ├── journal/
+│   │       │   └── route.ts
+│   │       ├── analytics/
+│   │       │   └── route.ts
+│   │       └── tools/
+│   │           └── route.ts
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   └── PageContainer.tsx
+│   │   ├── marketing/
+│   │   │   ├── Hero.tsx
+│   │   │   ├── FeatureGrid.tsx
+│   │   │   ├── PricingCards.tsx
+│   │   │   └── CTASection.tsx
+│   │   ├── dashboard/
+│   │   │   ├── OverviewCards.tsx
+│   │   │   ├── WatchlistPanel.tsx
+│   │   │   ├── RecentTrades.tsx
+│   │   │   └── PerformanceChart.tsx
+│   │   ├── journal/
+│   │   │   ├── TradeForm.tsx
+│   │   │   ├── TradeTable.tsx
+│   │   │   ├── ScreenshotUpload.tsx
+│   │   │   └── TagSelector.tsx
+│   │   ├── analytics/
+│   │   │   ├── WinRateCard.tsx
+│   │   │   ├── RiskRewardCard.tsx
+│   │   │   ├── PnlChart.tsx
+│   │   │   └── MistakeBreakdown.tsx
+│   │   └── tools/
+│   │       ├── PositionSizeCalculator.tsx
+│   │       ├── RiskRewardCalculator.tsx
+│   │       ├── ChecklistBuilder.tsx
+│   │       └── SessionPlanner.tsx
+│   ├── lib/
+│   │   ├── db.ts
+│   │   ├── auth.ts
+│   │   ├── analytics.ts
+│   │   ├── calculators.ts
+│   │   ├── validations.ts
+│   │   └── constants.ts
+│   ├── services/
+│   │   ├── tradeService.ts
+│   │   ├── journalService.ts
+│   │   ├── analyticsService.ts
+│   │   └── toolService.ts
+│   ├── hooks/
+│   │   ├── useTrades.ts
+│   │   ├── useJournal.ts
+│   │   ├── useAnalytics.ts
+│   │   └── useTools.ts
+│   ├── types/
+│   │   ├── trade.ts
+│   │   ├── journal.ts
+│   │   ├── analytics.ts
+│   │   └── user.ts
+│   ├── styles/
+│   │   └── globals.css
+│   └── utils/
+│       ├── formatCurrency.ts
+│       ├── formatDate.ts
+│       └── helpers.ts
+├── supabase/
+│   ├── schema.sql
+│   ├── policies.sql
+│   └── seed.sql
+└── tests/
+    ├── calculators.test.ts
+    ├── analytics.test.ts
+    └── trade-form.test.tsx
